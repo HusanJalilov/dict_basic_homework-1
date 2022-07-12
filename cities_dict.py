@@ -11,4 +11,3 @@ def cities_dict(cities:list):
         ans[x]=cities[x]
 
     return ans
-cities_dict(["Bukhara", "Khiva", "Namangan", "Samarkand", "Tashkent"])
