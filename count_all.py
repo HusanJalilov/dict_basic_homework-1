@@ -17,7 +17,7 @@ def count_all(txt):
             prob+=1
         else:
             latter+=1
-    all={"LATTERS":latter,"NUMBER":number}
+    all={"LETTERS":latter,"DIGITS":number}
     return all
 print(count_all("Hello World"))
 
