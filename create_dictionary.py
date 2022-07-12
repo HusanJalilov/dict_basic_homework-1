@@ -7,11 +7,12 @@ def create_dictionary(key, value):
     Returns:
         dict: dictionary with keys and values
     """
-    # for x,y in key,value:
-    #     dict1={x:y}
-    # return dict1
-    for x in key:
-        for y in value:
-            name={x:y}
-    print(name)
-create_dictionary([1,2,3],["a","b","c"])
+    
+    ans={}
+    for i in range(len(key)):
+        ans[key[i]]=value[i]
+    return ans
+    
+
+        
+print(create_dictionary([1,2,3],["a","b","c"]))
