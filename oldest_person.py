@@ -12,12 +12,6 @@ def oldest(people:dict):
     z=max(old)
     for y in people:
         if people[y]==z:
-            print(y)
-            
+            print(y)  
         
-
-       
-    
-
-
 oldest({"Javohir": 22, "Sharof": 23, "Tolib": 34, "Rustam": 16})
