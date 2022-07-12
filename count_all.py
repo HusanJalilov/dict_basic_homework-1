@@ -15,7 +15,7 @@ def count_all(txt):
         else:
             latter+=1
     all={"LATTERS":latter,"NUMBER":number}
-    print(all)
+    return all
 count_all("husan 22")
 
 
