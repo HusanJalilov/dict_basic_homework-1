@@ -9,13 +9,16 @@ def count_all(txt):
     """
     latter=0
     number=0
+    prob=0
     for x in txt:
         if x.isdigit():
             number+=1
+        if x==" ":
+            prob+=1
         else:
             latter+=1
     all={"LATTERS":latter,"NUMBER":number}
     return all
-count_all("husan 22")
+print(count_all("Hello World"))
 
 
